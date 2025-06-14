@@ -2,11 +2,12 @@ package main
 
 import "fmt"
 
-func main_vt() {
-	fmt.Println("go" + "lang")
-	fmt.Println("1+1 =", 1+1)
-	fmt.Println("7.0/3.0 =", 7.0/3.0)
-	fmt.Println(true && false)
-	fmt.Println(true || false)
-	fmt.Println(!true)
+func main() {
+	// Declare a slice of strings
+	colors := []string{"Red", "Green", "Blue", "Yellow"}
+
+	// Loop over the slice with index and value
+	for i, color := range colors {
+		fmt.Printf("Color at index %d is %s\n", i, color)
+	}
 }
